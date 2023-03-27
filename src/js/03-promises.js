@@ -8,7 +8,6 @@ const refs = {
   amount: document.querySelector('[name="amount"]'),
 }
 
-refs.body.style.backgroundColor = '#f7eff4';
 refs.form.addEventListener('click', onPromiseCreate);
 
 function createPromise(position, delay) {
